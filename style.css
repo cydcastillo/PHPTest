@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+    background-color:dodgerblue;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+.loop {
+    margin-top: 35vh;
+}
+
+.loop label {
+    margin: 9px;
+    padding: 7px;
+}
+
+.loop input {
+    color: black;
+    background-color: antiquewhite;
+
+}
+ 
+.loop button {
+    color:white;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.loop button:hover {
+    font-size: 1.7rem;
+    color: green;;
+    transition: ease-in-out 1s;
+}
+
+.result {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.result:hover {
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    box-shadow: 7px 7px yellow;
+    transition: all 0.777s;
+}
